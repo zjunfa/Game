@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+p,
+div,
+ul,
+dl,
+ol,
+i,
+em,
+strong,
+b,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 12px;
+  font-family: 'Microsoft Yahei';
+}
+
+ul,
+ol,
+dl {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+i,
+em {
+  font-style: normal;
+}
+
+b,
+strong {
+  font-weight: normal;
+}
+
+input,
+textarea {
+  outline: none;
+  resize: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(35, 167, 217, 0.5);
+}
+
+@media (max-width: 414px) html {
+  font-size: 143.75%;
+}
+
+@media (max-width: 432px) html {
+  font-size: 150%;
+}
+
+@media (max-width: 480px) html {
+  font-size: 166.668%;
+}
+
+@media (max-width: 540px) html {
+  font-size: 187.5%;
+}
+
+@media (max-width: 640px) html {
+  font-size: 222.222%;
+}
+
+@media (max-width: 720px) html {
+  font-size: 250%;
+}
+
+@media (min-width: 1200px) html {
+  font-size: 250%;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  visibility: hidden;
+  height: 0;
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+
